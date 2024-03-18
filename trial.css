@@ -1,0 +1,92 @@
+body {
+    display: grid;
+    grid-column: auto;
+    font-family: sans-serif;
+}
+.div1{
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.471) 0%, rgba(0, 0, 255, 0.537) 100% );
+    height: 500px;
+    width: 1055px;
+}
+input{
+    width: 20px;
+    height: 20px;
+    background-color: cyan;
+}
+input:hover{
+    transition: .3s ease-in;
+    width: 21px;
+    height: 21px;
+}
+/* label{
+    margin-bottom: 15px;
+} */
+.div2{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.div3{
+    display: flex;
+    grid-row: auto;
+    gap: 15px;
+}
+img{
+    width: 75px;
+    height: 73px;
+    margin-left: 5px;
+}
+.product {
+    position:relative;
+
+    display: flex;
+    place-items: center;
+    margin-bottom: 10px;
+    width: 330px;
+    height: 80px;
+    border: solid 1px;
+}
+.product:hover{
+    width: 336px;
+    height: 86px;
+    background-color: rgba(240, 248, 255, 0.642);
+    backdrop-filter: blur(8px);
+}
+.label{
+     margin-left: 200px;
+     margin-top: 10px;
+}
+.placement{
+    display: grid;
+    grid-column: auto;
+    margin-left: 10px;
+}
+button{
+    margin-top: 30px;
+    width: 120px;
+    height: 40px;
+    border-radius: 10px;
+    border-style: hidden;
+    background-color: rgba(255, 0, 0, 0.696);
+    color: white;
+    font-size: 15px;
+}
+button:hover{
+    transition: .5s ease-in;
+    background-color: rgba(255, 0, 0, 0.971);
+    border: solid 1px;
+}
+.total{
+    background-color: rgba(240, 248, 255, 0.747);
+    width: 500px;
+    height: 120px;
+    border-radius: 10px;
+}
+.divTotal{
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+/* .product input[type="checkbox"] {
+    margin-right: 10px;
+} */

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brix E-commerce Trial</title>
+    <link rel="stylesheet" href="trial.css">
+</head>
+
+<body>
+    <div class="div1">
+        <div class="div2">
+            <h1>Simple E-commerce Simulator</h1>
+            <p>Select the products you want to buy:</p>
+
+            <div id="products">
+                <div class="div3">
+                    <div id="productSelect1" class="product" onclick="productSelect()">
+                        <img src="C:\WebActivity\productActivity\pork-sisig-recipe-1024x574.png" alt="">
+                        <div class="placement">
+                            <label for="product1">Special Sisig - ₱700.00</label>
+                            <div class="label">
+                                <input type="checkbox" id="product1" value="700">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="productSelect2" class="product" onclick="productSelect()">
+                        <img src="C:\WebActivity\productActivity\IMG_0638-1.jpg">
+                        <div class="placement">
+                            <label for="product2">Grilled Whole Chicken- ₱550.00</label>
+                            <div class="label">
+                                <input type="checkbox" id="product2" value="550">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="productSelect3" class="product" onclick="productSelect()">
+                        <img src="C:\WebActivity\productActivity\sinigang-na-baboy.jpg">
+                        <div class="placement">
+                            <label for="product3">Sinigang na Baboy - ₱600.00</label>
+                            <div class="label">
+                                <input type="checkbox" id="product3" value="600">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button onclick="calculateTotal()">Calculate Total</button>
+                <h3 id="none">Unknown product, please select a product.</h3>
+                <form id="showTotal" class="total">
+                    <div class="divTotal">
+                        <p id="total">Total: ₱<span id="total-amount">0.00</span></p>
+                        <p id="delivery">Delivery Fee: ₱<span id="delivery-fee">150.00</span></p>
+                        <p id="discount">Discount: ₱<span id="discount-amount">0.00</span></p>
+                        <p id="grand-total">Grand Total: ₱<span id="grand-total-amount">0.00</span></p>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="trial.js"></script>
+
+</html>
